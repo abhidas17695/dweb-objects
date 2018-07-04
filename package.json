@@ -19,6 +19,7 @@
   },
   "description": "Internet Archive Decentralized Web Transports Library",
   "devDependencies": {
+    "browserify": "^14.5.0",
     "chai": "latest",
     "jsdom": "^11.11.0",
     "y-leveldb": "latest"
@@ -34,7 +35,7 @@
   },
   "scripts": {
     "test": "node ./test.js",
-    "build": "webpack --mode development",
+    "build": "browserify index.js > dist/objects-bundle.js",
     "help": "echo 'test (test it), webpack (build it), setuphttp (link files for http access);'",
     "setuphttp": "ln -s ../node_modules/dweb-transports/dist/dweb-transports-bundle.js dist;"
   },
