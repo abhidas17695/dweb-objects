@@ -5,6 +5,10 @@ Object library for dweb extension.  Builds on dweb-transports.
 This library is part of a general project at the Internet Archive (archive.org) 
 to support the decentralized web.  
 
+## Changes from general objects library
+
+* Added browserify as devDependency
+
 ## Installation and usage in the Browser
 
 * Clone this repo. 
