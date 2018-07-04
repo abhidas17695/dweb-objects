@@ -13,7 +13,7 @@ to support the decentralized web.
 
 * Clone this repo. 
 * To install dependencies `npm install`
-* To build the bundled javascript file `nom run-script build`. The file dist/objects-bundle.js is the output.
+* To build the bundled javascript file `npm run-script build`. The file dist/objects-bundle.js is the output.
 
 ##See related:
 
